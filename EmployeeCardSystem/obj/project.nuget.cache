@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vjd2KW8yOEU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\EmployeeCardSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.1\\microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.common\\5.0.0\\microsoft.codeanalysis.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\5.0.0\\microsoft.codeanalysis.visualbasic.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.0\\microsoft.win32.systemevents.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\reportviewercore.netcore\\15.1.33\\reportviewercore.netcore.15.1.33.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.codedom\\10.0.0\\system.codedom.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\10.0.0\\system.drawing.common.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.formats.nrbf\\10.0.0\\system.formats.nrbf.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.io.packaging\\10.0.0\\system.io.packaging.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.resources.extensions\\10.0.0\\system.resources.extensions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.servicemodel.http\\10.0.652802\\system.servicemodel.http.10.0.652802.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.servicemodel.primitives\\10.0.652802\\system.servicemodel.primitives.10.0.652802.nupkg.sha512"
+  ],
+  "logs": []
+}
