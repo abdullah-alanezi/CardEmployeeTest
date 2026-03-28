@@ -14,6 +14,7 @@
         // المسمى الوظيفي (مثلاً: مهندس برمجيات)
         public string JobTitle { get; set; }
 
+        public string Department { get; set; }
         // مصفوفة بايتات لتخزين الصورة؛ هذه هي الطريقة الأدق لتمرير الصور لتقارير RDLC
         public byte[] Photo { get; set; }
     }

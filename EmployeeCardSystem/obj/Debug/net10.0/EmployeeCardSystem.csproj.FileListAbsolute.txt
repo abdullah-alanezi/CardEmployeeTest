@@ -167,3 +167,4 @@ C:\Users\Admin\Documents\CSharp\EmployeeCardSystemSolution\EmployeeCardSystem\ob
 C:\Users\Admin\Documents\CSharp\EmployeeCardSystemSolution\EmployeeCardSystem\obj\Debug\net10.0\EmployeeCardSystem.pdb
 C:\Users\Admin\Documents\CSharp\EmployeeCardSystemSolution\EmployeeCardSystem\obj\Debug\net10.0\EmployeeCardSystem.genruntimeconfig.cache
 C:\Users\Admin\Documents\CSharp\EmployeeCardSystemSolution\EmployeeCardSystem\obj\Debug\net10.0\ref\EmployeeCardSystem.dll
+C:\Users\Admin\Documents\CSharp\EmployeeCardSystemSolution\EmployeeCardSystem\obj\Debug\net10.0\EmployeeCardSystem.sourcelink.json
