@@ -17,7 +17,7 @@ namespace EmployeeCardSystem.Services
         public byte[] GenerateEmployeeCard(Employee emp)
         {
             // تحديد مسار ملف التقرير الفيزيائي في المجلد الرئيسي للمشروع
-            string reportPath = Path.Combine(_webHostEnvironment.ContentRootPath, "EmployeeCard.rdlc");
+            string reportPath = Path.Combine(_webHostEnvironment.ContentRootPath,"EmployeeCard.rdlc");
 
             // إنشاء كائن التقرير المحلي (المحرك)
             using var report = new LocalReport();
