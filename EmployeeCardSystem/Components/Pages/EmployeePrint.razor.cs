@@ -1,5 +1,6 @@
-﻿using EmployeeCardSystem.Models;
-using EmployeeCardSystem.Services;
+﻿using EmployeeCardSystem.Application.Interfaces;
+using EmployeeCardSystem.Models;
+
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.JSInterop;
@@ -8,8 +9,9 @@ namespace EmployeeCardSystem.Components.Pages
 {
     public partial class EmployeePrint
     {
-        // حقن الخدمات باستخدام Inject Attribute
-        [Inject] protected ReportService ReportService { get; set; } = default!;
+        // 1. حقن الـ Repository بدلاً من الـ Service
+        [Inject] protected IEmployeeCardRepo EmployeeRepo { get; set; } = default!;
+
         [Inject] protected IJSRuntime JS { get; set; } = default!;
         [Inject] protected IWebHostEnvironment WebHostEnvironment { get; set; } = default!;
 
@@ -17,54 +19,53 @@ namespace EmployeeCardSystem.Components.Pages
         {
             Name = "عبد الله مفرح",
             EmployeeId = "100200",
-            JobTitle = "Senior Software Engineer"
+            JobTitle = "Senior Software Engineer",
+            Department = "IT Department" // أضفت القسم بناءً على الموديل الجديد
         };
 
         private string? imageDataUrl;
         private bool isUploading = false;
-        private string? message;
 
         private async Task LoadEmployeePhoto(InputFileChangeEventArgs e)
         {
-            isUploading = true; // تفعيل حالة التحميل لتعطيل الأزرار مؤقتاً
-            var file = e.File; // الحصول على الملف المرفوع من المتصفح
+            isUploading = true;
+            var file = e.File;
 
             if (file != null)
             {
                 try
                 {
-                    // تحديد حد أقصى للحجم (5 ميجابايت) لحماية السيرفر
-                    long maxFileSize = 1024 * 1024 * 5;
-
-                    // فتح تدفق لقراءة الملف من جهاز المستخدم
+                    long maxFileSize = 1024 * 1024 * 5; // 5 MB
                     using var stream = file.OpenReadStream(maxFileSize);
-
-                    // إنشاء وعاء في الذاكرة لنقل البيانات إليه
                     using var ms = new MemoryStream();
                     await stream.CopyToAsync(ms);
 
-                    // تحويل الذاكرة إلى مصفوفة بايتات وحفظها في كائن الموظف
                     testEmployee.Photo = ms.ToArray();
 
-                    // إنشاء رابط (Data URL) لعرض الصورة فوراً في واجهة HTML للمعاينة
                     var format = file.ContentType;
                     imageDataUrl = $"data:{format};base64,{Convert.ToBase64String(testEmployee.Photo)}";
                 }
-                catch (Exception ex) { /* معالجة الخطأ */ }
+                catch (Exception ex)
+                {
+                    // يمكنك إضافة Logger هنا لتسجيل الخطأ
+                }
             }
             isUploading = false;
         }
 
         private async Task GenerateCard()
         {
-            // استدعاء الخدمة لإرسال بيانات الموظف واستلام ملف الـ PDF كمصفوفة بايتات
-            byte[] pdfBytes = ReportService.GenerateEmployeeCard(testEmployee);
+            // 2. استخدام الدالة الجديدة من الـ Repository
+            // لاحظ أن اسم الدالة أصبح GenerateEmployeeCardReport حسب ما عرفناه في الـ Interface
+            byte[] pdfBytes = EmployeeRepo.GenerateEmployeeCardReport(testEmployee);
 
-            // تحويل البايتات إلى نص Base64 ليتمكن JavaScript من التعامل معه كرابط تحميل
-            string base64 = Convert.ToBase64String(pdfBytes);
+            if (pdfBytes != null)
+            {
+                string base64 = Convert.ToBase64String(pdfBytes);
 
-            // استدعاء دالة JS خارجية لفتح نافذة التحميل لدى المستخدم
-            await JS.InvokeVoidAsync("downloadFile", "EmployeeCard.pdf", base64);
+                // استدعاء دالة JS لتحميل الملف
+                await JS.InvokeVoidAsync("downloadFile", "EmployeeCard.pdf", base64);
+            }
         }
     }
 }

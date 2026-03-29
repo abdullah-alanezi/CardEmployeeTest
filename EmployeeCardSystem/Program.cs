@@ -1,11 +1,17 @@
 ﻿// استيراد مساحات الأسماء اللازمة للوصول إلى مكونات واجهة المستخدم
+using EmployeeCardSystem.Application.Interfaces;
 using EmployeeCardSystem.Components;
+using EmployeeCardSystem.Infrastructure.Repository;
 
 // بدء بناء تطبيق الويب وتجهيز الإعدادات الأساسية
 var builder = WebApplication.CreateBuilder(args);
 
-// تسجيل خدمة التقارير (ReportService) ليتمكن التطبيق من حقنها (Injection) في الصفحات عند الحاجة
-builder.Services.AddScoped<EmployeeCardSystem.Services.ReportService>();
+//// تسجيل خدمة التقارير (ReportService) ليتمكن التطبيق من حقنها (Injection) في الصفحات عند الحاجة
+//builder.Services.AddScoped<EmployeeCardSystem.Services.ReportService>();
+
+
+builder.Services.AddScoped<IEmployeeCardRepo, EmployeeCardRepo>();
+
 
 // إضافة خدمات Blazor Server مع تخصيص خيارات الاتصال (Hub)
 builder.Services.AddServerSideBlazor().AddHubOptions(options =>
