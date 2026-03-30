@@ -3,56 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98312162-03E0-47BD-8F72-E930C68EB55E}|EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.persistence\\repository\\employeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98312162-03E0-47BD-8F72-E930C68EB55E}|EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj|solutionrelative:employeecard.persistence\\repository\\employeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\components\\pages\\employeeprint.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\components\\pages\\employeeprint.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|solutionrelative:employeecard.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\components\\pages\\employeeprint.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\components\\pages\\employeeprint.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA54F739-5E23-4187-829C-884503B9AAC7}|EmployeeCard.Domain\\EmployeeCard.Domain.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.domain\\employeecard.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA54F739-5E23-4187-829C-884503B9AAC7}|EmployeeCard.Domain\\EmployeeCard.Domain.csproj|solutionrelative:employeecard.domain\\employeecard.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\employeecard.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\employeecard.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{68E07D8C-9802-4695-8839-171CEA992B70}|EmployeeCard.Application\\EmployeeCard.Application.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.application\\employeecard.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68E07D8C-9802-4695-8839-171CEA992B70}|EmployeeCard.Application\\EmployeeCard.Application.csproj|solutionrelative:employeecard.application\\employeecard.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98312162-03E0-47BD-8F72-E930C68EB55E}|EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.persistence\\employeecard.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98312162-03E0-47BD-8F72-E930C68EB55E}|EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj|solutionrelative:employeecard.persistence\\employeecard.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\infrastructure\\repository\\employeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\infrastructure\\repository\\employeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E07D8C-9802-4695-8839-171CEA992B70}|EmployeeCard.Application\\EmployeeCard.Application.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.application\\interfaces\\iemployeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E07D8C-9802-4695-8839-171CEA992B70}|EmployeeCard.Application\\EmployeeCard.Application.csproj|solutionrelative:employeecard.application\\interfaces\\iemployeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\employeecardsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\employeecardsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webui.client\\pages\\employeeprint.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|solutionrelative:employeecard.webui.client\\pages\\employeeprint.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\application\\interfaces\\iemployeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\application\\interfaces\\iemployeecardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|solutionrelative:employeecard.webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA54F739-5E23-4187-829C-884503B9AAC7}|EmployeeCard.Domain\\EmployeeCard.Domain.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.domain\\dtos\\employeecarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA54F739-5E23-4187-829C-884503B9AAC7}|EmployeeCard.Domain\\EmployeeCard.Domain.csproj|solutionrelative:employeecard.domain\\dtos\\employeecarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\report\\empcard.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\report\\empcard.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webui.client\\pages\\employeeprint.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|solutionrelative:employeecard.webui.client\\pages\\employeeprint.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webui.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|solutionrelative:employeecard.webui.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\report\\empdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\report\\empdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webui.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|solutionrelative:employeecard.webui.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecardsystem\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02897BEE-3708-2796-91BC-6E72F8F78714}|EmployeeCardSystem\\EmployeeCardSystem.csproj|solutionrelative:employeecardsystem\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webui.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|solutionrelative:employeecard.webui.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webui.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12A89D-7E84-4C2C-99ED-845EF52DA8D3}|EmployeeCard.WebUI.Client\\EmployeeCard.WebUI.Client.csproj|solutionrelative:employeecard.webui.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|solutionrelative:employeecard.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|solutionrelative:employeecard.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|c:\\users\\admin\\documents\\csharp\\employeecardsystemsolution\\employeecard.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF9AFE0D-77F8-4BE5-9394-AF9A590CD9DC}|EmployeeCard.WebApi\\EmployeeCard.WebApi.csproj|solutionrelative:employeecard.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,21 +78,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 19,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\App.razor",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\App.razor",
-              "RelativeToolTip": "EmployeeCardSystem\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-28T13:31:07.825Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
@@ -91,154 +94,224 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Program.cs*",
-              "RelativeToolTip": "EmployeeCardSystem\\Program.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:16:36.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeCardRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Infrastructure\\Repository\\EmployeeCardRepo.cs",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Infrastructure\\Repository\\EmployeeCardRepo.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Infrastructure\\Repository\\EmployeeCardRepo.cs",
-              "RelativeToolTip": "EmployeeCardSystem\\Infrastructure\\Repository\\EmployeeCardRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:14:51.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEmployeeCardRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Application\\Interfaces\\IEmployeeCardRepo.cs",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Application\\Interfaces\\IEmployeeCardRepo.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Application\\Interfaces\\IEmployeeCardRepo.cs",
-              "RelativeToolTip": "EmployeeCardSystem\\Application\\Interfaces\\IEmployeeCardRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:10:04.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmpCard.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Report\\EmpCard.rdlc",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Report\\EmpCard.rdlc",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Report\\EmpCard.rdlc [Design]",
-              "RelativeToolTip": "EmployeeCardSystem\\Report\\EmpCard.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2026-03-28T15:07:11.371Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\ReportService.cs",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\ReportService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\ReportService.cs*",
-              "RelativeToolTip": "EmployeeCardSystem\\ReportService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T14:50:10.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmpDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Report\\EmpDataSet.xsd",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Report\\EmpDataSet.xsd",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Report\\EmpDataSet.xsd",
-              "RelativeToolTip": "EmployeeCardSystem\\Report\\EmpDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2026-03-28T14:44:13.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeCardSystem.csproj",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\EmployeeCardSystem.csproj",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\EmployeeCardSystem.csproj",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\EmployeeCardSystem.csproj",
-              "RelativeToolTip": "EmployeeCardSystem\\EmployeeCardSystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-28T14:43:01.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "EmployeeCardSystem\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "EmployeeCard.WebUI.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\_Imports.razor",
+              "RelativeToolTip": "EmployeeCard.WebUI.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-28T13:34:12.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeePrint.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor.cs",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor.cs",
-              "RelativeToolTip": "EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T13:27:28.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Models\\Employee.cs",
-              "RelativeToolTip": "EmployeeCardSystem\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T07:52:51.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeePrint.razor",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor",
-              "RelativeToolTip": "EmployeeCardSystem\\Components\\Pages\\EmployeePrint.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-28T07:52:08.294Z",
+              "WhenOpened": "2026-03-30T17:55:16.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeCard.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\EmployeeCard.rdlc",
-              "RelativeDocumentMoniker": "EmployeeCardSystem\\EmployeeCard.rdlc",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCardSystem\\EmployeeCard.rdlc [Design]",
-              "RelativeToolTip": "EmployeeCardSystem\\EmployeeCard.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2026-03-27T14:47:21.506Z",
-              "EditorCaption": " [Design]"
+              "Title": "EmployeeCard.Application",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Application\\EmployeeCard.Application.csproj",
+              "RelativeDocumentMoniker": "EmployeeCard.Application\\EmployeeCard.Application.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Application\\EmployeeCard.Application.csproj*",
+              "RelativeToolTip": "EmployeeCard.Application\\EmployeeCard.Application.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T17:43:55.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeCardDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Domain\\DTOs\\EmployeeCardDto.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.Domain\\DTOs\\EmployeeCardDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Domain\\DTOs\\EmployeeCardDto.cs",
+              "RelativeToolTip": "EmployeeCard.Domain\\DTOs\\EmployeeCardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:43:24.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeCard.Domain",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Domain\\EmployeeCard.Domain.csproj",
+              "RelativeDocumentMoniker": "EmployeeCard.Domain\\EmployeeCard.Domain.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Domain\\EmployeeCard.Domain.csproj",
+              "RelativeToolTip": "EmployeeCard.Domain\\EmployeeCard.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T17:42:47.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeCard.Persistence",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj",
+              "RelativeDocumentMoniker": "EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj",
+              "RelativeToolTip": "EmployeeCard.Persistence\\EmployeeCard.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T17:36:22.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "EmployeeCard.WebUI.Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\wwwroot\\index.html",
+              "RelativeToolTip": "EmployeeCard.WebUI.Client\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-30T17:29:59.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "EmployeeCard.WebUI.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "EmployeeCard.WebUI.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T17:27:50.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeePrint.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor.cs",
+              "RelativeToolTip": "EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:15:35.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeePrint.razor",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor",
+              "RelativeDocumentMoniker": "EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor",
+              "RelativeToolTip": "EmployeeCard.WebUI.Client\\Pages\\EmployeePrint.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T17:15:13.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EmployeeCard.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EmployeeCard.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T17:08:44.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EmployeeCard.WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "EmployeeCard.WebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T17:08:09.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeCard.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\appsettings.json",
+              "RelativeToolTip": "EmployeeCard.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T17:08:04.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.WebUI.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebUI.Client\\Program.cs",
+              "RelativeToolTip": "EmployeeCard.WebUI.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:05:57.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.WebApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeCard.WebApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:59:23.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.WebApi\\Program.cs",
+              "RelativeToolTip": "EmployeeCard.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:58:30.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeCardRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Application\\Interfaces\\IEmployeeCardRepo.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.Application\\Interfaces\\IEmployeeCardRepo.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Application\\Interfaces\\IEmployeeCardRepo.cs",
+              "RelativeToolTip": "EmployeeCard.Application\\Interfaces\\IEmployeeCardRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:46:19.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeCardRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Persistence\\Repository\\EmployeeCardRepo.cs",
+              "RelativeDocumentMoniker": "EmployeeCard.Persistence\\Repository\\EmployeeCardRepo.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CSharp\\EmployeeCardSystemSolution\\EmployeeCard.Persistence\\Repository\\EmployeeCardRepo.cs",
+              "RelativeToolTip": "EmployeeCard.Persistence\\Repository\\EmployeeCardRepo.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAGwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:45:14.778Z",
+              "EditorCaption": ""
             }
           ]
         }

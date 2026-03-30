@@ -269,13 +269,18 @@
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>3.5in</Height>
+        <Height>8.89cm</Height>
         <Style />
       </Body>
-      <Width>3in</Width>
+      <Width>7.62cm</Width>
       <Page>
-        <PageHeight>3.5in</PageHeight>
-        <PageWidth>3in</PageWidth>
+        <PageHeight>8.89cm</PageHeight>
+        <PageWidth>7.62cm</PageWidth>
+        <LeftMargin>0cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
         <Style />
       </Page>
     </ReportSection>
@@ -286,6 +291,6 @@
       <NumberOfRows>2</NumberOfRows>
     </GridLayoutDefinition>
   </ReportParametersLayout>
-  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>19ee3f6e-2fcd-485a-8785-1d4bde15909a</rd:ReportID>
 </Report>

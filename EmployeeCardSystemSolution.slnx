@@ -1,3 +1,13 @@
 <Solution>
+  <Folder Name="/BackEnd/">
+    <Project Path="EmployeeCard.Application/EmployeeCard.Application.csproj" Id="68e07d8c-9802-4695-8839-171cea992b70" />
+    <Project Path="EmployeeCard.Domain/EmployeeCard.Domain.csproj" Id="ea54f739-5e23-4187-829c-884503b9aac7" />
+    <Project Path="EmployeeCard.Infrastructure/EmployeeCard.Infrastructure.csproj" Id="7dbb574a-0a01-4e05-8e63-865ff27ee4c0" />
+    <Project Path="EmployeeCard.Persistence/EmployeeCard.Persistence.csproj" Id="98312162-03e0-47bd-8f72-e930c68eb55e" />
+    <Project Path="EmployeeCard.WebApi/EmployeeCard.WebApi.csproj" Id="bf9afe0d-77f8-4be5-9394-af9a590cd9dc" />
+  </Folder>
+  <Folder Name="/FrontEnd/">
+    <Project Path="EmployeeCard.WebUI.Client/EmployeeCard.WebUI.Client.csproj" Id="3a12a89d-7e84-4c2c-99ed-845ef52da8d3" />
+  </Folder>
   <Project Path="EmployeeCardSystem/EmployeeCardSystem.csproj" />
 </Solution>

@@ -12,10 +12,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Report\EmpDataSet.xsd">
+    <Compile Update="Report\EmployeeDataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Report\EmployeeDataSet.xsd">
       <SubType>Designer</SubType>
-      <LastGenOutput>EmpDataSet.Designer.cs</LastGenOutput>
       <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmployeeDataSet.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 

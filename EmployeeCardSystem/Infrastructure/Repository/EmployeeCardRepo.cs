@@ -1,12 +1,12 @@
 ﻿using EmployeeCardSystem.Application.Interfaces;
 using EmployeeCardSystem.Models;
 using Microsoft.Reporting.NETCore;
-
+using Microsoft.AspNetCore.Hosting;
 namespace EmployeeCardSystem.Infrastructure.Repository
 {
     public class EmployeeCardRepo : IEmployeeCardRepo
     {
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IHostEnvironment _webHostEnvironment;
 
         public EmployeeCardRepo(IWebHostEnvironment webHostEnvironment)
         {
@@ -16,7 +16,7 @@ namespace EmployeeCardSystem.Infrastructure.Repository
         public byte[] GenerateEmployeeCardReport(Employee emp)
         {
             // تحديد مسار ملف التقرير الفيزيائي في المجلد الرئيسي للمشروع
-            string reportPath = Path.Combine(_webHostEnvironment.ContentRootPath, "EmployeeCard.rdlc");
+            string reportPath = Path.Combine(_webHostEnvironment.ContentRootPath,"Report", "EmployeeCard.rdlc");
 
             // إنشاء كائن التقرير المحلي (المحرك)
             using var report = new LocalReport();

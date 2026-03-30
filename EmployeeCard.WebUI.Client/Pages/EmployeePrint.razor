@@ -1,0 +1,61 @@
+﻿@page "/"
+@using EmployeeCard.Domain.DTOs
+@* تأكد من أن الـ Namespace يطابق مجلد الـ Dtos في مشروع الـ Domain *@
+
+<PageTitle>طباعة كرت الموظف</PageTitle>
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4>نموذج بيانات الموظف - (DTO Binding)</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="mb-3">
+                        <label>اسم الموظف:</label>
+                        @* تم التغيير لعمل Binding مع الـ DTO *@
+                        <input class="form-control" @bind="empDto.Name" />
+                    </div>
+                    <div class="mb-3">
+                        <label>الرقم الوظيفي:</label>
+                        <input class="form-control" @bind="empDto.EmployeeId" />
+                    </div>
+                    <div class="mb-3">
+                        <label>المسمى الوظيفي:</label>
+                        <input class="form-control" @bind="empDto.JobTitle" />
+                    </div>
+                    <div class="mb-3">
+                        <label>القسم:</label>
+                        <input class="form-control" @bind="empDto.Department" />
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="mb-3">
+                        <label class="form-label">صورة الموظف:</label>
+                        <InputFile OnChange="LoadEmployeePhoto" class="form-control" accept=".png,.jpg,.jpeg" />
+                    </div>
+                    @if (imageDataUrl != null)
+                    {
+                        <div class="mt-2">
+                            <img src="@imageDataUrl" class="img-thumbnail" style="max-height: 150px;" alt="Preview" />
+                        </div>
+                    }
+                    else if (empDto.Photo != null)
+                    {
+                        <div class="mt-2">
+                            <img src="data:image/png;base64,@Convert.ToBase64String(empDto.Photo)" class="img-thumbnail" style="max-height: 150px;" alt="Photo" />
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <hr />
+            <button class="btn btn-success float-end" @onclick="GenerateCard" disabled="@isUploading">
+                <i class="oi oi-print"></i>
+                @(isUploading ? "جاري المعالجة..." : "طباعة الكرت عبر الـ API")
+            </button>
+        </div>
+    </div>
+</div>
