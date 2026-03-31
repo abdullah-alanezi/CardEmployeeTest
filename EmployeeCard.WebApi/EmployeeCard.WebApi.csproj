@@ -24,6 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Report\EmployeeCard.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Report\EmployeeDataSet.xsd">
       <SubType>Designer</SubType>
       <LastGenOutput>EmployeeDataSet.Designer.cs</LastGenOutput>

@@ -1,37 +1,44 @@
 ﻿using EmployeeCard.Application.Interfaces;
-
 using EmployeeCard.Domain.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeCard.WebApi.Controllers
+[Route("api/[controller]")]
+[ApiController]
+public class EmployeeController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class EmployeeController : ControllerBase
-    {
-        private readonly IEmployeeCardRepo _repo;
+    private readonly IEmployeeCardRepo _repo;
 
-        public EmployeeController(IEmployeeCardRepo repo)
+    public EmployeeController(IEmployeeCardRepo repo)
+    {
+        _repo = repo;
+    }
+
+    [HttpPost("print")]
+    // إضافة RequestSizeLimit إذا كانت الصورة كبيرة جداً
+    [RequestSizeLimit(100_000_000)] // تحديد 100 ميجابايت كحد أقصى
+    public IActionResult PrintEmployeeCard([FromBody] EmployeeCardDto empDto)
+    {
+        // 1. التحقق من حالة الموديل (Model State)
+        if (!ModelState.IsValid)
         {
-            _repo = repo;
+            return BadRequest(ModelState);
         }
 
-        [HttpPost("print")]
-        public IActionResult PrintEmployeeCard([FromBody] EmployeeCardDto empDto) // استقبال الـ DTO
+        try
         {
-            try
-            {
-                // الـ Repo الآن هو المسؤول عن تحويل الـ DTO لموديل حقيقي عبر AutoMapper
-                var pdfBytes = _repo.GenerateEmployeeCardReport(empDto);
+            if (empDto == null) return BadRequest("البيانات المرسلة فارغة.");
 
-                // إرجاع الملف كـ File Stream ليتمكن المتصفح من معالجته
-                return File(pdfBytes, "application/pdf", "EmployeeCard.pdf");
-            }
-            catch (Exception ex)
-            {
-                // تسجيل الخطأ وإرجاع رسالة مفهومة
-                return BadRequest($"حدث خطأ أثناء توليد التقرير: {ex.Message}");
-            }
+            var pdfBytes = _repo.GenerateEmployeeCardReport(empDto);
+
+            // 2. إرجاع الملف مع تحديد اسم ديناميكي (احترافي أكثر)
+            string fileName = $"Card_{empDto.EmployeeId}_{DateTime.Now:yyyyMMdd}.pdf";
+            return File(pdfBytes, "application/pdf", fileName);
+        }
+        catch (Exception ex)
+        {
+            // 3. تسجيل الخطأ في الـ Console لمعرفة السبب الحقيقي (Server-side)
+            Console.WriteLine($"[Error] Report Generation Failed: {ex.Message}");
+            return StatusCode(500, $"خطأ داخلي: {ex.Message}");
         }
     }
 }

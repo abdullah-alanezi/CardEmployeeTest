@@ -113,34 +113,43 @@ namespace EmployeeCard.Persistence.Repositories
         }
         public byte[] GenerateEmployeeCardReport(EmployeeCardDto employeeDto)
         {
-            // 1. تحديد مسار ملف التقرير
-            string reportPath = Path.Combine(_webHostEnvironment.ContentRootPath, "Report", "EmployeeCard.rdlc");
+            // 1. مسار ملف التقرير
+            string reportPath = Path.Combine(AppContext.BaseDirectory, "Services", "Reports", "Templates", "EmployeeCard.rdlc");
 
-            // 2. الربط اليدوي (Manual Mapping) بدلاً من AutoMapper
-            // نقوم بنقل البيانات من الـ DTO إلى الـ Entity حقلاً بحقل
-            var employee = new Employee
-            {
-                Name = employeeDto.Name,
-                EmployeeId = employeeDto.EmployeeId,
-                JobTitle = employeeDto.JobTitle,
-                Department = employeeDto.Department,
-                Photo = employeeDto.Photo
-            };
+            if (!File.Exists(reportPath))
+                throw new FileNotFoundException($"RDLC file not found: {reportPath}");
 
-            // 3. إنشاء كائن التقرير المحلي
             using var report = new LocalReport();
             report.ReportPath = reportPath;
 
-            // 4. وضع الكائن في قائمة لأن RDLC يتوقع IEnumerable
-            var employees = new List<Employee> { employee };
+            // 2. تجهيز الصورة (تحويل لـ Base64)
+            // إذا كانت الصورة فارغة نرسل نصاً فارغاً ليتجنب التقرير أخطاء الـ Null
+            string photoBase64 = (employeeDto.Photo != null && employeeDto.Photo.Length > 0)
+                                 ? Convert.ToBase64String(employeeDto.Photo)
+                                 : "";
 
-            // 5. ربط البيانات بالـ DataSet (تأكد أن الاسم "DS_Employee" مطابق لما في ملف RDLC)
-            report.DataSources.Add(new ReportDataSource("DS_Employee", employees));
+            // 3. إعداد البارامترات (يجب أن تطابق الأسماء في مجلد Parameters بالديزاين)
+            var reportParams = new List<ReportParameter>
+    {
+        new ReportParameter("pName", employeeDto.Name ?? ""),
+        new ReportParameter("pEmployeeId", employeeDto.EmployeeId ?? ""),
+        new ReportParameter("pJobTitle", employeeDto.JobTitle ?? ""),
+        new ReportParameter("pDepartment", employeeDto.Department ?? ""),
+        new ReportParameter("pPhoto", photoBase64)
+    };
 
-            // 6. توليد ملف الـ PDF
-            byte[] pdf = report.Render("PDF");
+            // 4. تمرير البارامترات فقط (لاحظ حذف سطر الـ DataSource تماماً)
+            report.SetParameters(reportParams);
 
-            return pdf;
+            // 5. توليد ملف الـ PDF مباشرة
+            try
+            {
+                return report.Render("PDF");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"خطأ في معالجة التقرير (Parameters Mode): {ex.Message}");
+            }
         }
     }
 }
