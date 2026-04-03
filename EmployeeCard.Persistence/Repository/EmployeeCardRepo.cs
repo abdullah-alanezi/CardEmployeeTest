@@ -102,15 +102,15 @@ namespace EmployeeCard.Persistence.Repositories
 {
     public class EmployeeCardRepo : IEmployeeCardRepo
     {
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        //private readonly IWebHostEnvironment _webHostEnvironment;
         
 
-        // قمنا بحقن IMapper في الـ Constructor
-        public EmployeeCardRepo(IWebHostEnvironment webHostEnvironment)
-        {
-            _webHostEnvironment = webHostEnvironment;
+        //// قمنا بحقن IMapper في الـ Constructor
+        //public EmployeeCardRepo(IWebHostEnvironment webHostEnvironment)
+        //{
+        //    _webHostEnvironment = webHostEnvironment;
             
-        }
+        //}
         public byte[] GenerateEmployeeCardReport(EmployeeCardDto employeeDto)
         {
             // 1. مسار ملف التقرير
