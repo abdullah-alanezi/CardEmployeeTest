@@ -44,7 +44,7 @@
                     <Source>Database</Source>
                     <Value>=System.Convert.FromBase64String(Parameters!pPhoto.Value)</Value>
                     <MIMEType>image/jpeg</MIMEType>
-                    <Sizing>FitProportional</Sizing>
+                    <Sizing>Fit</Sizing>
                     <Top>0.05in</Top>
                     <Left>0.05in</Left>
                     <Height>1.2in</Height>

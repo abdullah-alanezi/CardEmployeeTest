@@ -7,31 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EmployeeCard.Application\EmployeeCard.Application.csproj" />
     <ProjectReference Include="..\EmployeeCard.Persistence\EmployeeCard.Persistence.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Report\EmployeeDataSet.Designer.cs">
-      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Report\EmployeeCard.rdlc">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Report\EmployeeDataSet.xsd">
-      <SubType>Designer</SubType>
-      <LastGenOutput>EmployeeDataSet.Designer.cs</LastGenOutput>
-      <Generator>MSDataSetGenerator</Generator>
-    </None>
   </ItemGroup>
 
 </Project>
